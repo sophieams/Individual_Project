@@ -13,6 +13,9 @@ individual_project/
 │
 ├── figures/             # Contains all figures used in the individual project report.
 │
-├── model_output/        # Contains full model output data from analyses with 2**17 parameter space samples.
+├── model_output/        # Folder for full model outputs without analysis. Data was too large to add to
+                           the repository, but all analyzed indices are available in overall_data and daily_data, while new model outputs can be generated with sample_daily.py or
+                           sample_overall.py. 
 │
-├── overall_data/        # contains precomputed senstivity indices for the maximum of the specified model output.
+├── overall_data/        # contains precomputed senstivity indices for the maximum of the specified model
+                           output.
